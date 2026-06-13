@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,6 +29,7 @@ body{
 
 .header h1{
     margin-bottom:10px;
+    font-size:2.2rem;
 }
 
 .header p{
@@ -38,6 +40,7 @@ body{
     background:#1e293b;
     padding:25px;
     border-radius:20px;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
 }
 
 .filters{
@@ -63,10 +66,25 @@ button{
     color:white;
     font-size:18px;
     cursor:pointer;
+    transition:0.3s;
 }
 
 button:hover{
     background:#1d4ed8;
+}
+
+.tz-info{
+    margin-top:20px;
+    background:#334155;
+    padding:15px;
+    border-radius:10px;
+    color:#e2e8f0;
+    font-size:14px;
+    line-height:1.8;
+}
+
+.tz-info b{
+    color:#93c5fd;
 }
 
 .result{
@@ -75,8 +93,9 @@ button:hover{
 
 .result-card{
     background:#1e293b;
-    padding:20px;
+    padding:25px;
     border-radius:15px;
+    border-left:5px solid #2563eb;
 }
 
 .open-btn{
@@ -87,10 +106,18 @@ button:hover{
     padding:12px 20px;
     border-radius:10px;
     text-decoration:none;
+    transition:0.3s;
 }
 
 .open-btn:hover{
     background:#1d4ed8;
+}
+
+.footer{
+    text-align:center;
+    margin-top:40px;
+    color:#94a3b8;
+    font-size:13px;
 }
 
 </style>
@@ -101,8 +128,18 @@ button:hover{
 <div class="container">
 
 <div class="header">
+
 <h1>🔍 DP Physics Past Paper Bank</h1>
-<p>Find papers by Year, Session, Level and Timezone</p>
+
+<p>
+Search IB Physics past papers by examination session,
+level and timezone.
+</p>
+
+<p style="color:#93c5fd;">
+Years Available: 2016–2025
+</p>
+
 </div>
 
 <div class="search-card">
@@ -119,6 +156,21 @@ button:hover{
 
 </div>
 
+<div class="tz-info">
+
+<b>🌍 IB Timezone Guide</b><br><br>
+
+<b>TZ1</b> → Americas<br>
+USA, Canada, Mexico, Central America, South America<br><br>
+
+<b>TZ2</b> → Europe, Africa & Middle East<br>
+UK, France, Germany, Spain, UAE, Saudi Arabia, South Africa, etc.<br><br>
+
+<b>TZ3</b> → Asia-Pacific<br>
+Indonesia, Singapore, Malaysia, Thailand, China, Japan, South Korea, Australia, New Zealand
+
+</div>
+
 <button onclick="searchPapers()">
 🔍 Search Papers
 </button>
@@ -126,6 +178,10 @@ button:hover{
 </div>
 
 <div id="result" class="result"></div>
+
+<div class="footer">
+DP Physics Resource Hub
+</div>
 
 </div>
 
@@ -213,11 +269,17 @@ result.innerHTML = `
 <div class="result-card">
 
 <h2>
-${year} • ${session} • ${level} • ${tz}
+📚 ${year} • ${session} • ${level} • ${tz}
 </h2>
 
 <p>
-Past paper folder found.
+✅ Papers available for this examination session.
+</p>
+
+<p>
+<strong>Session:</strong> ${session}<br>
+<strong>Level:</strong> ${level}<br>
+<strong>Timezone:</strong> ${tz}
 </p>
 
 <a
@@ -225,7 +287,7 @@ class="open-btn"
 href="${match.link}"
 target="_blank">
 
-📁 Open Past Papers
+📚 Open Paper Collection
 
 </a>
 
@@ -239,7 +301,7 @@ result.innerHTML = `
 
 <div class="result-card">
 
-No papers found.
+❌ No papers found.
 
 </div>
 
