@@ -93,12 +93,85 @@ button:hover{
     background:#1d4ed8;
 }
 
+.countdown-card{
+    background:linear-gradient(135deg,#1d4ed8,#2563eb);
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+    margin-bottom:30px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.3);
+}
+
+.countdown-title{
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.countdown-subtitle{
+    color:#dbeafe;
+    margin-bottom:20px;
+}
+
+.days{
+    font-size:64px;
+    font-weight:bold;
+    line-height:1;
+}
+
+.days-label{
+    margin-bottom:20px;
+}
+
+.time-grid{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.time-box{
+    min-width:90px;
+}
+
+.time-number{
+    font-size:32px;
+    font-weight:bold;
+}
+
+.time-label{
+    font-size:13px;
+    color:#dbeafe;
+}
+
+.motivation{
+    margin-top:20px;
+    font-weight:bold;
+}
+    
 </style>
 </head>
 
 <body>
 
 <div class="container">
+
+<div class="countdown-card">
+
+<div class="countdown-title">
+🚀 IB DP Physics 2027
+</div>
+
+<div class="countdown-subtitle">
+Days Remaining Until Examination Session
+</div>
+
+<div id="countdown"></div>
+
+<div id="motivation" class="motivation"></div>
+
+</div>
+
 
 <div class="header">
 <h1>🔍 DP Physics Past Paper Bank</h1>
@@ -249,6 +322,102 @@ No papers found.
 
 }
 
+const examDate = new Date("2027-05-05T09:00:00");
+
+function updateCountdown(){
+
+    const now = new Date();
+    const diff = examDate - now;
+
+    if(diff <= 0){
+
+        document.getElementById("countdown").innerHTML =
+        "<h2>🎉 Exam Day Has Arrived!</h2>";
+
+        return;
+    }
+
+    const days = Math.floor(diff/(1000*60*60*24));
+
+    const hours = Math.floor(
+        (diff%(1000*60*60*24))
+        /(1000*60*60)
+    );
+
+    const minutes = Math.floor(
+        (diff%(1000*60*60))
+        /(1000*60)
+    );
+
+    const seconds = Math.floor(
+        (diff%(1000*60))
+        /1000
+    );
+
+    document.getElementById("countdown").innerHTML = `
+    
+    <div class="days">${days}</div>
+
+    <div class="days-label">
+    Days Remaining
+    </div>
+
+    <div class="time-grid">
+
+        <div class="time-box">
+            <div class="time-number">
+            ${String(hours).padStart(2,"0")}
+            </div>
+            <div class="time-label">
+            Hours
+            </div>
+        </div>
+
+        <div class="time-box">
+            <div class="time-number">
+            ${String(minutes).padStart(2,"0")}
+            </div>
+            <div class="time-label">
+            Minutes
+            </div>
+        </div>
+
+        <div class="time-box">
+            <div class="time-number">
+            ${String(seconds).padStart(2,"0")}
+            </div>
+            <div class="time-label">
+            Seconds
+            </div>
+        </div>
+
+    </div>
+    `;
+
+    let motivation = "";
+
+    if(days > 180){
+        motivation = "📚 Build strong conceptual understanding.";
+    }
+    else if(days > 90){
+        motivation = "📝 Start topic-by-topic revision.";
+    }
+    else if(days > 30){
+        motivation = "🎯 Focus on past paper practice.";
+    }
+    else{
+        motivation = "🚀 Final revision mode activated.";
+    }
+
+    document.getElementById("motivation").innerHTML =
+    motivation;
+}
+
+updateCountdown();
+
+setInterval(updateCountdown,1000);
+
+    
 </script>
 
 </body>
