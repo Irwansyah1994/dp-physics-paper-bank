@@ -223,15 +223,26 @@ questions=data;
 
 function startQuiz(){
 
-let difficulty=
+let topic =
+document.getElementById("topic").value;
+
+let difficulty =
 document.getElementById("difficulty").value;
 
-let pool=questions;
+let pool = questions;
+
+if(topic !== "All Topics"){
+
+    pool = pool.filter(
+        q => q.topic === topic
+    );
+
+}
 
 if(difficulty!=="Mixed"){
 
 pool=
-questions.filter(
+pool.filter(
 q=>q.difficulty===difficulty
 );
 
