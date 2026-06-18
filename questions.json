@@ -2,7 +2,7 @@
   {
     "id":"M25_TZ1_1_Mech_E",
     "paper":"P1",
-    "topic":"Mechanics",
+    "topic":"A.1 Kinematics",
     "difficulty":"Easy",
     "answer":"B",
     "image":"images/P1/M25_TZ1_1_Mech_E.png"
@@ -10,7 +10,7 @@
   {
     "id":"M25_TZ1_2_Mech_E",
     "paper":"P1",
-    "topic":"Mechanics",
+    "topic":"A.1 Kinematics",
     "difficulty":"Easy",
     "answer":"B",
     "image":"images/P1/M25_TZ1_2_Mech_E.png"
@@ -18,7 +18,7 @@
   {
     "id":"M25_TZ1_3_Mech_M",
     "paper":"P1",
-    "topic":"Mechanics",
+    "topic":"A.1 Kinematics",
     "difficulty":"Medium",
     "answer":"A",
     "image":"images/P1/M25_TZ1_3_Mech_M.png"
@@ -26,7 +26,7 @@
   {
     "id":"M25_TZ1_4_Mech_M",
     "paper":"P1",
-    "topic":"Mechanics",
+    "topic":"A.1 Kinematics",
     "difficulty":"Medium",
     "answer":"C",
     "image":"images/P1/M25_TZ1_4_Mech_M.png"
@@ -34,7 +34,7 @@
   {
     "id":"M25_TZ1_5_CM_E",
     "paper":"P1",
-    "topic":"Circular Motion",
+    "topic":"A.4 Rigid body mechanics",
     "difficulty":"Easy",
     "answer":"C",
     "image":"images/P1/M25_TZ1_5_CM_E.png"
@@ -42,7 +42,7 @@
   {
     "id":"M25_TZ1_6_Mom_E",
     "paper":"P1",
-    "topic":"Momentum",
+    "topic":"A.2 Forces and momentum",
     "difficulty":"Easy",
     "answer":"A",
     "image":"images/P1/M25_TZ1_6_Mom_E.png"
@@ -50,7 +50,7 @@
   {
     "id":"M25_TZ1_7_CM_H",
     "paper":"P1",
-    "topic":"Circular Motion",
+    "topic":"A.4 Rigid body mechanics",
     "difficulty":"Hard",
     "answer":"B",
     "image":"images/P1/M25_TZ1_7_CM_H.png"
@@ -58,7 +58,7 @@
   {
     "id":"M25_TZ1_8_CM_M",
     "paper":"P1",
-    "topic":"Circular Motion",
+    "topic":"A.4 Rigid body mechanics",
     "difficulty":"Medium",
     "answer":"B",
     "image":"images/P1/M25_TZ1_8_CM_M.png"
@@ -66,7 +66,7 @@
   {
     "id":"M25_TZ1_9_Rel_H",
     "paper":"P1",
-    "topic":"Relativity",
+    "topic":"A.5 Galilean and special relativity",
     "difficulty":"Hard",
     "answer":"B",
     "image":"images/P1/M25_TZ1_9_Rel_H.png"
@@ -74,7 +74,7 @@
   {
     "id":"M25_TZ1_10_TP_E",
     "paper":"P1",
-    "topic":"Thermal Physics",
+    "topic":"B.1 Thermal energy transfers",
     "difficulty":"Easy",
     "answer":"A",
     "image":"images/P1/M25_TZ1_10_TP_E.png"
@@ -82,7 +82,7 @@
   {
     "id":"M25_TZ1_11_CC_E",
     "paper":"P1",
-    "topic":"Climate Change",
+    "topic":"B.2 Greenhouse effect",
     "difficulty":"Easy",
     "answer":"D",
     "image":"images/P1/M25_TZ1_11_CC_E.png"
@@ -90,7 +90,7 @@
   {
     "id":"M25_TZ1_12_KT_M",
     "paper":"P1",
-    "topic":"Kinetic Theory",
+    "topic":"B.3 Gas laws",
     "difficulty":"Medium",
     "answer":"C",
     "image":"images/P1/M25_TZ1_12_KT_M.png"
@@ -98,7 +98,7 @@
   {
     "id":"M25_TZ1_13_Ther_H",
     "paper":"P1",
-    "topic":"Thermal Physics",
+    "topic":"B.4 Thermodynamics",
     "difficulty":"Hard",
     "answer":"C",
     "image":"images/P1/M25_TZ1_13_Ther_H.png"
@@ -106,7 +106,7 @@
   {
     "id":"M25_TZ1_14_Elec_M",
     "paper":"P1",
-    "topic":"Electricity",
+    "topic":"B.5 Current and circuits",
     "difficulty":"Medium",
     "answer":"D",
     "image":"images/P1/M25_TZ1_14_Elec_M.png"
@@ -114,7 +114,7 @@
   {
     "id":"M25_TZ1_15_Elec_H",
     "paper":"P1",
-    "topic":"Electricity",
+    "topic":"B.5 Current and circuits",
     "difficulty":"Hard",
     "answer":"B",
     "image":"images/P1/M25_TZ1_15_Elec_H.png"
@@ -122,7 +122,7 @@
   {
     "id":"M25_TZ1_16_Elec_H",
     "paper":"P1",
-    "topic":"Electricity",
+    "topic":"B.5 Current and circuits",
     "difficulty":"Hard",
     "answer":"C",
     "image":"images/P1/M25_TZ1_16_Elec_H.png"
@@ -130,7 +130,7 @@
   {
     "id":"M25_TZ1_17_Osc_M",
     "paper":"P1",
-    "topic":"Oscillations",
+    "topic":"C.1 Simple harmonic motion",
     "difficulty":"Medium",
     "answer":"B",
     "image":"images/P1/M25_TZ1_17_Osc_M.png"
@@ -138,7 +138,7 @@
   {
     "id":"M25_TZ1_18_Wav_E",
     "paper":"P1",
-    "topic":"Waves",
+    "topic":"C.2 Wave model",
     "difficulty":"Easy",
     "answer":"B",
     "image":"images/P1/M25_TZ1_18_Wav_E.png"
@@ -146,7 +146,7 @@
   {
     "id":"M25_TZ1_19_SHM_H",
     "paper":"P1",
-    "topic":"Simple Harmonic Motion",
+    "topic":"C.1 Simple harmonic motion",
     "difficulty":"Hard",
     "answer":"D",
     "image":"images/P1/M25_TZ1_19_SHM_H.png"
@@ -154,7 +154,7 @@
   {
     "id":"M25_TZ1_20_SHM_M",
     "paper":"P1",
-    "topic":"Simple Harmonic Motion",
+    "topic":"C.1 Simple harmonic motion",
     "difficulty":"Medium",
     "answer":"C",
     "image":"images/P1/M25_TZ1_20_SHM_M.png"
@@ -162,7 +162,7 @@
   {
     "id":"M25_TZ1_21_SHM_H",
     "paper":"P1",
-    "topic":"Simple Harmonic Motion",
+    "topic":"C.1 Simple harmonic motion",
     "difficulty":"Hard",
     "answer":"C",
     "image":"images/P1/M25_TZ1_21_SHM_H.png"
@@ -170,7 +170,7 @@
   {
     "id":"M25_TZ1_22_STD_M",
     "paper":"P1",
-    "topic":"Standing Waves",
+    "topic":"C.4 Standing waves and resonance",
     "difficulty":"Medium",
     "answer":"C",
     "image":"images/P1/M25_TZ1_22_STD_M.png"
@@ -178,7 +178,7 @@
   {
     "id":"M25_TZ1_23_DIF_M",
     "paper":"P1",
-    "topic":"Diffraction",
+    "topic":"C.3 Wave phenomena",
     "difficulty":"Medium",
     "answer":"D",
     "image":"images/P1/M25_TZ1_23_DIF_M.png"
@@ -186,7 +186,7 @@
   {
     "id":"M25_TZ1_24_GRAV_M",
     "paper":"P1",
-    "topic":"Gravitation",
+    "topic":"D.1 Gravitational fields",
     "difficulty":"Medium",
     "answer":"B",
     "image":"images/P1/M25_TZ1_24_GRAV_M.png"
@@ -194,15 +194,15 @@
   {
     "id":"M25_TZ1_25_GRAV_H",
     "paper":"P1",
-    "topic":"Gravitation",
+    "topic":"D.1 Gravitational fields",
     "difficulty":"Hard",
     "answer":"A",
     "image":"images/P1/M25_TZ1_25_GRAV_H.png"
-  },
+  }
   {
     "id":"M25_TZ1_26_FIELD_H",
     "paper":"P1",
-    "topic":"Fields",
+    "topic":"D.2 Electric and magnetic fields",
     "difficulty":"Hard",
     "answer":"A",
     "image":"images/P1/M25_TZ1_26_FIELD_H.png"
@@ -210,7 +210,7 @@
   {
     "id":"M25_TZ1_27_ElecFie_M",
     "paper":"P1",
-    "topic":"Electric Fields",
+    "topic":"D.2 Electric and magnetic fields",
     "difficulty":"Medium",
     "answer":"D",
     "image":"images/P1/M25_TZ1_27_ElecFie_M.png"
@@ -218,7 +218,7 @@
   {
     "id":"M25_TZ1_28_Magnet_M",
     "paper":"P1",
-    "topic":"Magnetism",
+    "topic":"D.2 Electric and magnetic fields",
     "difficulty":"Medium",
     "answer":"A",
     "image":"images/P1/M25_TZ1_28_Magnet_M.png"
@@ -226,7 +226,7 @@
   {
     "id":"M25_TZ1_29_Magnet_H",
     "paper":"P1",
-    "topic":"Magnetism",
+    "topic":"D.2 Electric and magnetic fields",
     "difficulty":"Hard",
     "answer":"C",
     "image":"images/P1/M25_TZ1_29_Magnet_H.png"
@@ -234,7 +234,7 @@
   {
     "id":"M25_TZ1_30_Atomic_E",
     "paper":"P1",
-    "topic":"Atomic Physics",
+    "topic":"E.1 Structure of the atom",
     "difficulty":"Easy",
     "answer":"B",
     "image":"images/P1/M25_TZ1_30_Atomic_E.png"
@@ -242,7 +242,7 @@
   {
     "id":"M25_TZ1_31_EMind_H",
     "paper":"P1",
-    "topic":"Electromagnetic Induction",
+    "topic":"D.4 Induction",
     "difficulty":"Hard",
     "answer":"D",
     "image":"images/P1/M25_TZ1_31_EMind_H.png"
@@ -250,7 +250,7 @@
   {
     "id":"M25_TZ1_32_Nuc_E",
     "paper":"P1",
-    "topic":"Nuclear Physics",
+    "topic":"E.3 Radioactive decay",
     "difficulty":"Easy",
     "answer":"A",
     "image":"images/P1/M25_TZ1_32_Nuc_E.png"
@@ -258,7 +258,7 @@
   {
     "id":"M25_TZ1_33_Nuc_M",
     "paper":"P1",
-    "topic":"Nuclear Physics",
+    "topic":"E.3 Radioactive decay",
     "difficulty":"Medium",
     "answer":"C",
     "image":"images/P1/M25_TZ1_33_Nuc_M.png"
@@ -266,7 +266,7 @@
   {
     "id":"M25_TZ1_34_Photo_M",
     "paper":"P1",
-    "topic":"Photoelectric Effect",
+    "topic":"E.2 Quantum physics",
     "difficulty":"Medium",
     "answer":"A",
     "image":"images/P1/M25_TZ1_34_Photo_M.png"
@@ -274,7 +274,7 @@
   {
     "id":"M25_TZ1_35_Quant_M",
     "paper":"P1",
-    "topic":"Quantum Physics",
+    "topic":"E.2 Quantum physics",
     "difficulty":"Medium",
     "answer":"A",
     "image":"images/P1/M25_TZ1_35_Quant_M.png"
@@ -282,7 +282,7 @@
   {
     "id":"M25_TZ1_36_Radioac_E",
     "paper":"P1",
-    "topic":"Radioactivity",
+    "topic":"E.3 Radioactive decay",
     "difficulty":"Easy",
     "answer":"A",
     "image":"images/P1/M25_TZ1_36_Radioac_E.png"
@@ -290,7 +290,7 @@
   {
     "id":"M25_TZ1_37_Nuc_H",
     "paper":"P1",
-    "topic":"Nuclear Physics",
+    "topic":"E.4 Fission",
     "difficulty":"Hard",
     "answer":"A",
     "image":"images/P1/M25_TZ1_37_Nuc_H.png"
@@ -298,7 +298,7 @@
   {
     "id":"M25_TZ1_38_Nuc_E",
     "paper":"P1",
-    "topic":"Nuclear Physics",
+    "topic":"E.3 Radioactive decay",
     "difficulty":"Easy",
     "answer":"D",
     "image":"images/P1/M25_TZ1_38_Nuc_E.png"
@@ -306,7 +306,7 @@
   {
     "id":"M25_TZ1_39_Nuc_H",
     "paper":"P1",
-    "topic":"Nuclear Physics",
+    "topic":"E.5 Fusion and stars",
     "difficulty":"Hard",
     "answer":"C",
     "image":"images/P1/M25_TZ1_39_Nuc_H.png"
@@ -314,10 +314,9 @@
   {
     "id":"M25_TZ1_40_Astro_M",
     "paper":"P1",
-    "topic":"Astrophysics",
+    "topic":"E.5 Fusion and stars",
     "difficulty":"Medium",
     "answer":"D",
     "image":"images/P1/M25_TZ1_40_Astro_M.png"
   }
-
 ]
