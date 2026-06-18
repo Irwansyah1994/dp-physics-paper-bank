@@ -198,5 +198,126 @@
     "difficulty":"Hard",
     "answer":"A",
     "image":"images/P1/M25_TZ1_25_GRAV_H.png"
+  },
+  {
+    "id":"M25_TZ1_26_FIELD_H",
+    "paper":"P1",
+    "topic":"Fields",
+    "difficulty":"Hard",
+    "answer":"A",
+    "image":"images/P1/M25_TZ1_26_FIELD_H.png"
+  },
+  {
+    "id":"M25_TZ1_27_ElecFie_M",
+    "paper":"P1",
+    "topic":"Electric Fields",
+    "difficulty":"Medium",
+    "answer":"D",
+    "image":"images/P1/M25_TZ1_27_ElecFie_M.png"
+  },
+  {
+    "id":"M25_TZ1_28_Magnet_M",
+    "paper":"P1",
+    "topic":"Magnetism",
+    "difficulty":"Medium",
+    "answer":"A",
+    "image":"images/P1/M25_TZ1_28_Magnet_M.png"
+  },
+  {
+    "id":"M25_TZ1_29_Magnet_H",
+    "paper":"P1",
+    "topic":"Magnetism",
+    "difficulty":"Hard",
+    "answer":"C",
+    "image":"images/P1/M25_TZ1_29_Magnet_H.png"
+  },
+  {
+    "id":"M25_TZ1_30_Atomic_E",
+    "paper":"P1",
+    "topic":"Atomic Physics",
+    "difficulty":"Easy",
+    "answer":"B",
+    "image":"images/P1/M25_TZ1_30_Atomic_E.png"
+  },
+  {
+    "id":"M25_TZ1_31_EMind_H",
+    "paper":"P1",
+    "topic":"Electromagnetic Induction",
+    "difficulty":"Hard",
+    "answer":"D",
+    "image":"images/P1/M25_TZ1_31_EMind_H.png"
+  },
+  {
+    "id":"M25_TZ1_32_Nuc_E",
+    "paper":"P1",
+    "topic":"Nuclear Physics",
+    "difficulty":"Easy",
+    "answer":"A",
+    "image":"images/P1/M25_TZ1_32_Nuc_E.png"
+  },
+  {
+    "id":"M25_TZ1_33_Nuc_M",
+    "paper":"P1",
+    "topic":"Nuclear Physics",
+    "difficulty":"Medium",
+    "answer":"C",
+    "image":"images/P1/M25_TZ1_33_Nuc_M.png"
+  },
+  {
+    "id":"M25_TZ1_34_Photo_M",
+    "paper":"P1",
+    "topic":"Photoelectric Effect",
+    "difficulty":"Medium",
+    "answer":"A",
+    "image":"images/P1/M25_TZ1_34_Photo_M.png"
+  },
+  {
+    "id":"M25_TZ1_35_Quant_M",
+    "paper":"P1",
+    "topic":"Quantum Physics",
+    "difficulty":"Medium",
+    "answer":"A",
+    "image":"images/P1/M25_TZ1_35_Quant_M.png"
+  },
+  {
+    "id":"M25_TZ1_36_Radioac_E",
+    "paper":"P1",
+    "topic":"Radioactivity",
+    "difficulty":"Easy",
+    "answer":"A",
+    "image":"images/P1/M25_TZ1_36_Radioac_E.png"
+  },
+  {
+    "id":"M25_TZ1_37_Nuc_H",
+    "paper":"P1",
+    "topic":"Nuclear Physics",
+    "difficulty":"Hard",
+    "answer":"A",
+    "image":"images/P1/M25_TZ1_37_Nuc_H.png"
+  },
+  {
+    "id":"M25_TZ1_38_Nuc_E",
+    "paper":"P1",
+    "topic":"Nuclear Physics",
+    "difficulty":"Easy",
+    "answer":"D",
+    "image":"images/P1/M25_TZ1_38_Nuc_E.png"
+  },
+  {
+    "id":"M25_TZ1_39_Nuc_H",
+    "paper":"P1",
+    "topic":"Nuclear Physics",
+    "difficulty":"Hard",
+    "answer":"C",
+    "image":"images/P1/M25_TZ1_39_Nuc_H.png"
+  },
+  {
+    "id":"M25_TZ1_40_Astro_M",
+    "paper":"P1",
+    "topic":"Astrophysics",
+    "difficulty":"Medium",
+    "answer":"D",
+    "image":"images/P1/M25_TZ1_40_Astro_M.png"
   }
+
 ]
