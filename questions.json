@@ -318,5 +318,165 @@
     "difficulty":"Medium",
     "answer":"D",
     "image":"images/P1/M25_TZ1_40_Astro_M.png"
+  },
+  {
+  "id":"M25_TZ2_1_Kin_M",
+  "paper":"P1",
+  "topic":"A.1 Kinematics",
+  "difficulty":"Medium",
+  "answer":"B",
+  "image":"images/P1/M25_TZ2_1_Kin_M.png"
+  },
+  {
+    "id":"M25_TZ2_2_Kin_E",
+    "paper":"P1",
+    "topic":"A.1 Kinematics",
+    "difficulty":"Easy",
+    "answer":"C",
+    "image":"images/P1/M25_TZ2_2_Kin_E.png"
+  },
+  {
+    "id":"M25_TZ2_3_Kin_M",
+    "paper":"P1",
+    "topic":"A.1 Kinematics",
+    "difficulty":"Medium",
+    "answer":"D",
+    "image":"images/P1/M25_TZ2_3_Kin_M.png"
+  },
+  {
+    "id":"M25_TZ2_4_RBM_H",
+    "paper":"P1",
+    "topic":"A.4 Rigid body mechanics",
+    "difficulty":"Hard",
+    "answer":"D",
+    "image":"images/P1/M25_TZ2_4_RBM_H.png"
+  },
+  {
+    "id":"M25_TZ2_5_BM_M",
+    "paper":"P1",
+    "topic":"A.2 Forces and momentum",
+    "difficulty":"Medium",
+    "answer":"D",
+    "image":"images/P1/M25_TZ2_5_BM_M.png"
+  },
+  {
+    "id":"M25_TZ2_6_RBM_E",
+    "paper":"P1",
+    "topic":"A.4 Rigid body mechanics",
+    "difficulty":"Easy",
+    "answer":"A",
+    "image":"images/P1/M25_TZ2_6_RBM_E.png"
+  },
+  {
+    "id":"M25_TZ2_7_RBM_E",
+    "paper":"P1",
+    "topic":"A.4 Rigid body mechanics",
+    "difficulty":"Easy",
+    "answer":"D",
+    "image":"images/P1/M25_TZ2_7_RBM_E.png"
+  },
+  {
+    "id":"M25_TZ2_8_RBM_M",
+    "paper":"P1",
+    "topic":"A.4 Rigid body mechanics",
+    "difficulty":"Medium",
+    "answer":"C",
+    "image":"images/P1/M25_TZ2_8_RBM_M.png"
+  },
+  {
+    "id":"M25_TZ2_9_B2_GH_H",
+    "paper":"P1",
+    "topic":"B.2 Greenhouse effect",
+    "difficulty":"Hard",
+    "answer":"C",
+    "image":"images/P1/M25_TZ2_9_B2_GH_H.png"
+  },
+  {
+    "id":"M25_TZ2_10_B2_GH_E",
+    "paper":"P1",
+    "topic":"B.2 Greenhouse effect",
+    "difficulty":"Easy",
+    "answer":"C",
+    "image":"images/P1/M25_TZ2_10_B2_GH_E.png"
+  },
+  {
+    "id":"M25_TZ2_11_B3_Gas_E",
+    "paper":"P1",
+    "topic":"B.3 Gas laws",
+    "difficulty":"Easy",
+    "answer":"C",
+    "image":"images/P1/M25_TZ2_11_B3_Gas_E.png"
+  },
+  {
+    "id":"M25_TZ2_12_B4_Ther_H",
+    "paper":"P1",
+    "topic":"B.4 Thermodynamics",
+    "difficulty":"Hard",
+    "answer":"D",
+    "image":"images/P1/M25_TZ2_12_B4_Ther_H.png"
+  },
+  {
+    "id":"M25_TZ2_13_B5_Circ_M",
+    "paper":"P1",
+    "topic":"B.5 Current and circuits",
+    "difficulty":"Medium",
+    "answer":"C",
+    "image":"images/P1/M25_TZ2_13_B5_Circ_M.png"
+  },
+  {
+    "id":"M25_TZ2_14_B5_Circ_M",
+    "paper":"P1",
+    "topic":"B.5 Current and circuits",
+    "difficulty":"Medium",
+    "answer":"D",
+    "image":"images/P1/M25_TZ2_14_B5_Circ_M.png"
+  },
+  {
+    "id":"M25_TZ2_15_C1_SHM_E",
+    "paper":"P1",
+    "topic":"C.1 Simple harmonic motion",
+    "difficulty":"Easy",
+    "answer":"D",
+    "image":"images/P1/M25_TZ2_15_C1_SHM_E.png"
+  },
+  {
+    "id":"M25_TZ2_16_C1_SHM_M",
+    "paper":"P1",
+    "topic":"C.1 Simple harmonic motion",
+    "difficulty":"Medium",
+    "answer":"B",
+    "image":"images/P1/M25_TZ2_16_C1_SHM_M.png"
+  },
+  {
+    "id":"M25_TZ2_17_C1_SHM_M",
+    "paper":"P1",
+    "topic":"C.1 Simple harmonic motion",
+    "difficulty":"Medium",
+    "answer":"B",
+    "image":"images/P1/M25_TZ2_17_C1_SHM_M.png"
+  },
+  {
+    "id":"M25_TZ2_18_C2_Wave_E",
+    "paper":"P1",
+    "topic":"C.2 Wave model",
+    "difficulty":"Easy",
+    "answer":"A",
+    "image":"images/P1/M25_TZ2_18_C2_Wave_E.png"
+  },
+  {
+    "id":"M25_TZ2_19_C4_Stand_H",
+    "paper":"P1",
+    "topic":"C.4 Standing waves and resonance",
+    "difficulty":"Hard",
+    "answer":"A",
+    "image":"images/P1/M25_TZ2_19_C4_Stand_H.png"
+  },
+  {
+    "id":"M25_TZ2_20_C1_SHM_E",
+    "paper":"P1",
+    "topic":"C.1 Simple harmonic motion",
+    "difficulty":"Easy",
+    "answer":"B",
+    "image":"images/P1/M25_TZ2_20_C1_SHM_E.png"
   }
 ]
