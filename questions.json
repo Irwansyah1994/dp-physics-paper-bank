@@ -78,5 +78,125 @@
     "difficulty":"Easy",
     "answer":"A",
     "image":"images/P1/M25_TZ1_10_TP_E.png"
+  },
+  {
+    "id":"M25_TZ1_11_CC_E",
+    "paper":"P1",
+    "topic":"Climate Change",
+    "difficulty":"Easy",
+    "answer":"D",
+    "image":"images/P1/M25_TZ1_11_CC_E.png"
+  },
+  {
+    "id":"M25_TZ1_12_KT_M",
+    "paper":"P1",
+    "topic":"Kinetic Theory",
+    "difficulty":"Medium",
+    "answer":"C",
+    "image":"images/P1/M25_TZ1_12_KT_M.png"
+  },
+  {
+    "id":"M25_TZ1_13_Ther_H",
+    "paper":"P1",
+    "topic":"Thermal Physics",
+    "difficulty":"Hard",
+    "answer":"C",
+    "image":"images/P1/M25_TZ1_13_Ther_H.png"
+  },
+  {
+    "id":"M25_TZ1_14_Elec_M",
+    "paper":"P1",
+    "topic":"Electricity",
+    "difficulty":"Medium",
+    "answer":"D",
+    "image":"images/P1/M25_TZ1_14_Elec_M.png"
+  },
+  {
+    "id":"M25_TZ1_15_Elec_H",
+    "paper":"P1",
+    "topic":"Electricity",
+    "difficulty":"Hard",
+    "answer":"B",
+    "image":"images/P1/M25_TZ1_15_Elec_H.png"
+  },
+  {
+    "id":"M25_TZ1_16_Elec_H",
+    "paper":"P1",
+    "topic":"Electricity",
+    "difficulty":"Hard",
+    "answer":"C",
+    "image":"images/P1/M25_TZ1_16_Elec_H.png"
+  },
+  {
+    "id":"M25_TZ1_17_Osc_M",
+    "paper":"P1",
+    "topic":"Oscillations",
+    "difficulty":"Medium",
+    "answer":"B",
+    "image":"images/P1/M25_TZ1_17_Osc_M.png"
+  },
+  {
+    "id":"M25_TZ1_18_Wav_E",
+    "paper":"P1",
+    "topic":"Waves",
+    "difficulty":"Easy",
+    "answer":"B",
+    "image":"images/P1/M25_TZ1_18_Wav_E.png"
+  },
+  {
+    "id":"M25_TZ1_19_SHM_H",
+    "paper":"P1",
+    "topic":"Simple Harmonic Motion",
+    "difficulty":"Hard",
+    "answer":"D",
+    "image":"images/P1/M25_TZ1_19_SHM_H.png"
+  },
+  {
+    "id":"M25_TZ1_20_SHM_M",
+    "paper":"P1",
+    "topic":"Simple Harmonic Motion",
+    "difficulty":"Medium",
+    "answer":"C",
+    "image":"images/P1/M25_TZ1_20_SHM_M.png"
+  },
+  {
+    "id":"M25_TZ1_21_SHM_H",
+    "paper":"P1",
+    "topic":"Simple Harmonic Motion",
+    "difficulty":"Hard",
+    "answer":"C",
+    "image":"images/P1/M25_TZ1_21_SHM_H.png"
+  },
+  {
+    "id":"M25_TZ1_22_STD_M",
+    "paper":"P1",
+    "topic":"Standing Waves",
+    "difficulty":"Medium",
+    "answer":"C",
+    "image":"images/P1/M25_TZ1_22_STD_M.png"
+  },
+  {
+    "id":"M25_TZ1_23_DIF_M",
+    "paper":"P1",
+    "topic":"Diffraction",
+    "difficulty":"Medium",
+    "answer":"D",
+    "image":"images/P1/M25_TZ1_23_DIF_M.png"
+  },
+  {
+    "id":"M25_TZ1_24_GRAV_M",
+    "paper":"P1",
+    "topic":"Gravitation",
+    "difficulty":"Medium",
+    "answer":"B",
+    "image":"images/P1/M25_TZ1_24_GRAV_M.png"
+  },
+  {
+    "id":"M25_TZ1_25_GRAV_H",
+    "paper":"P1",
+    "topic":"Gravitation",
+    "difficulty":"Hard",
+    "answer":"A",
+    "image":"images/P1/M25_TZ1_25_GRAV_H.png"
   }
 ]
