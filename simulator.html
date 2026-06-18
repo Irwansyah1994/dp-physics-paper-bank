@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>DP Physics Quick Challenge</title>
+
+<style>
+
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial,sans-serif;
+    margin:0;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:30px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+h1{
+    text-align:center;
+}
+
+select,button{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+.timer{
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    margin:20px 0;
+}
+
+.question-image{
+    width:100%;
+    border-radius:10px;
+}
+
+.answers{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+    margin-top:20px;
+}
+
+.answer-btn{
+    background:#334155;
+}
+
+.answer-btn:hover{
+    background:#475569;
+}
+
+.hidden{
+    display:none;
+}
+
+.result{
+    text-align:center;
+    font-size:24px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card" id="setup">
+
+<h1>🎯 DP Physics Quick Challenge</h1>
+
+<label>Difficulty</label>
+
+<select id="difficulty">
+<option>Easy</option>
+<option>Medium</option>
+<option>Hard</option>
+<option>Mixed</option>
+</select>
+
+<button onclick="startQuiz()">
+Start Challenge
+</button>
+
+</div>
+
+<div id="quiz" class="hidden">
+
+<div class="card">
+
+<h2 id="questionNumber"></h2>
+
+<div class="timer" id="timer">
+90
+</div>
+
+<img
+id="questionImage"
+class="question-image"
+>
+
+<div class="answers">
+
+<button class="answer-btn" onclick="submitAnswer('A')">A</button>
+
+<button class="answer-btn" onclick="submitAnswer('B')">B</button>
+
+<button class="answer-btn" onclick="submitAnswer('C')">C</button>
+
+<button class="answer-btn" onclick="submitAnswer('D')">D</button>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="results" class="hidden">
+
+<div class="card result">
+
+<h2>🎉 Challenge Complete</h2>
+
+<p id="score"></p>
+
+<button onclick="location.reload()">
+Try Again
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+let questions=[];
+let selectedQuestions=[];
+let currentQuestion=0;
+let score=0;
+let timer;
+let timeLeft=90;
+
+fetch("questions.json")
+.then(r=>r.json())
+.then(data=>{
+questions=data;
+});
+
+function startQuiz(){
+
+let difficulty=
+document.getElementById("difficulty").value;
+
+let pool=questions;
+
+if(difficulty!=="Mixed"){
+
+pool=
+questions.filter(
+q=>q.difficulty===difficulty
+);
+
+}
+
+selectedQuestions=
+pool
+.sort(()=>Math.random()-0.5)
+.slice(0,5);
+
+document.getElementById("setup")
+.classList.add("hidden");
+
+document.getElementById("quiz")
+.classList.remove("hidden");
+
+showQuestion();
+
+}
+
+function showQuestion(){
+
+if(currentQuestion>=selectedQuestions.length){
+
+finishQuiz();
+
+return;
+
+}
+
+const q=
+selectedQuestions[currentQuestion];
+
+document.getElementById(
+"questionNumber"
+).innerHTML=
+
+`Question ${currentQuestion+1} of 5`;
+
+document.getElementById(
+"questionImage"
+).src=q.image;
+
+timeLeft=90;
+
+document.getElementById(
+"timer"
+).innerHTML=timeLeft;
+
+clearInterval(timer);
+
+timer=setInterval(()=>{
+
+timeLeft--;
+
+document.getElementById(
+"timer"
+).innerHTML=timeLeft;
+
+if(timeLeft<=0){
+
+clearInterval(timer);
+
+currentQuestion++;
+
+showQuestion();
+
+}
+
+},1000);
+
+}
+
+function submitAnswer(choice){
+
+clearInterval(timer);
+
+const q=
+selectedQuestions[currentQuestion];
+
+if(choice===q.answer){
+
+score++;
+
+}
+
+currentQuestion++;
+
+showQuestion();
+
+}
+
+function finishQuiz(){
+
+document.getElementById("quiz")
+.classList.add("hidden");
+
+document.getElementById("results")
+.classList.remove("hidden");
+
+document.getElementById("score")
+.innerHTML=
+
+`Score: ${score} / 5`;
+
+}
+
+</script>
+
+</body>
+</html>
