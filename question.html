@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1">
+
+<title>Question a(i)</title>
+
+<style>
+
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial,sans-serif;
+    margin:0;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:30px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+img{
+    width:100%;
+    border-radius:10px;
+}
+
+textarea{
+    width:100%;
+    min-height:150px;
+    border-radius:10px;
+    padding:15px;
+    font-size:16px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h2>
+📝 Your Known Quantities
+</h2>
+
+<div id="notesBox"></div>
+
+</div>
+
+<div class="card">
+
+<h2>
+Question a(i)
+</h2>
+
+<img
+src="images/P2/M23_TZ1/Q1/ai.png"
+>
+
+</div>
+
+<div class="card">
+
+<h2>
+Your Answer
+</h2>
+
+<textarea
+id="answerBox"
+placeholder="Type your answer here..."
+></textarea>
+
+<button onclick="submitAnswer()">
+
+Submit Answer
+
+</button>
+
+</div>
+
+</div>
+
+<script>
+
+document.getElementById(
+"notesBox"
+).innerHTML =
+
+localStorage.getItem(
+"studentNotes"
+).replace(/\n/g,"<br>");
+
+function submitAnswer(){
+
+localStorage.setItem(
+"aiAnswer",
+document.getElementById(
+"answerBox"
+).value
+);
+
+alert(
+"Later this will be sent to AI Examiner."
+);
+
+}
+
+</script>
+
+</body>
+</html>
