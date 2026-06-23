@@ -10,34 +10,28 @@
 
       {
         "part":"a(i)",
-        "image":"images/P2/M23_TZ1/Q1/ai.png"
+        "image":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1ai.png"
       },
 
       {
         "part":"a(ii)",
-        "image":"images/P2/M23_TZ1/Q1/aii.png"
+        "image":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1aii.png"
       },
 
       {
         "part":"a(iii)",
-        "image":"images/P2/M23_TZ1/Q1/aiii.png"
+        "image":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1aiii.png"
       },
 
       {
         "part":"b(i)",
-        "image":"images/P2/M23_TZ1/Q1/bi.png"
+        "image":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1bi.png"
       },
 
       {
         "part":"b(ii)",
-        "image":"images/P2/M23_TZ1/Q1/bii.png"
-      },
-
-      {
-        "part":"c",
-        "image":"images/P2/M23_TZ1/Q1/c.png"
+        "image":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1bii.png"
       }
-
     ]
   }
 ]
