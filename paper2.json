@@ -1,1 +1,43 @@
+[
+  {
+    "id":"M23_TZ1_Q1",
+    "topic":"A.2 Forces and momentum",
+    "difficulty":"Medium",
 
+    "stimulus":"images/P2/M23_TZ1/Q1/stimulus.png",
+
+    "parts":[
+
+      {
+        "part":"a(i)",
+        "image":"images/P2/M23_TZ1/Q1/ai.png"
+      },
+
+      {
+        "part":"a(ii)",
+        "image":"images/P2/M23_TZ1/Q1/aii.png"
+      },
+
+      {
+        "part":"a(iii)",
+        "image":"images/P2/M23_TZ1/Q1/aiii.png"
+      },
+
+      {
+        "part":"b(i)",
+        "image":"images/P2/M23_TZ1/Q1/bi.png"
+      },
+
+      {
+        "part":"b(ii)",
+        "image":"images/P2/M23_TZ1/Q1/bii.png"
+      },
+
+      {
+        "part":"c",
+        "image":"images/P2/M23_TZ1/Q1/c.png"
+      }
+
+    ]
+  }
+]
