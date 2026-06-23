@@ -149,6 +149,13 @@ document.getElementById(
 
 function goToQuestion(){
 
+localStorage.removeItem("answers");
+
+localStorage.setItem(
+"currentPart",
+0
+);
+    
 localStorage.setItem(
 "studentNotes",
 document.getElementById("notes").value
