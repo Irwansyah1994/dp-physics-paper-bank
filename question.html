@@ -76,12 +76,11 @@ button:hover{
 
 <div class="card">
 
-<h2>
-Question a(i)
+<h2 id="questionTitle">
 </h2>
 
 <img
-src="images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1ai.png"
+id="questionImage"
 >
 
 </div>
@@ -117,18 +116,66 @@ localStorage.getItem(
 "studentNotes"
 ).replace(/\n/g,"<br>");
 
+let parts = [
+"ai",
+"aii",
+"aiii",
+"bi",
+"bii",
+"c"
+];
+
+let currentPart =
+parseInt(
+localStorage.getItem("currentPart")
+|| "0"
+);
+
+document.getElementById(
+"questionTitle"
+).innerHTML =
+"Question " +
+parts[currentPart];
+
+document.getElementById(
+"questionImage"
+).src =
+`images/P2/M23_TZ1/Q1/${parts[currentPart]}.png`;
+    
 function submitAnswer(){
 
-localStorage.setItem(
-"aiAnswer",
-document.getElementById(
-"answerBox"
-).value
+let answers =
+JSON.parse(
+localStorage.getItem("answers")
+|| "{}"
 );
 
-alert(
-"Later this will be sent to AI Examiner."
+answers[parts[currentPart]] =
+document.getElementById("answerBox").value;
+
+localStorage.setItem(
+"answers",
+JSON.stringify(answers)
 );
+
+currentPart++;
+
+localStorage.setItem(
+"currentPart",
+currentPart
+);
+
+if(currentPart >= parts.length){
+
+window.location.href =
+"summary.html";
+
+}
+else{
+
+location.reload();
+
+}
 
 }
 
