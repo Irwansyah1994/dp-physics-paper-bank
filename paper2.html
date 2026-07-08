@@ -124,6 +124,20 @@ Continue →
 
 <script>
 
+let question;
+
+fetch("paper2.json")
+.then(r => r.json())
+.then(data => {
+
+    // For now, always use Question 1
+    question = data[0];
+
+    document.querySelector("img").src =
+    question.stimulus;
+
+});
+
 let timeLeft = 30;
 
 const timer =
