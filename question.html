@@ -149,7 +149,7 @@ localStorage.getItem("answers")
 || "{}"
 );
 
-answers[parts[currentPart]] =
+answers[part.part] =
 document.getElementById("answerBox").value;
 
 localStorage.setItem(
@@ -164,7 +164,7 @@ localStorage.setItem(
 currentPart
 );
 
-if(currentPart >= parts.length){
+if(currentPart >= question.parts.length){
 
 window.location.href =
 "summary.html";
