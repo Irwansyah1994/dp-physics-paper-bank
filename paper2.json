@@ -8,40 +8,31 @@
 
     "parts":[
 
-      {
-        "part":"a(i)",
-        "image":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1ai.png",
-        "markscheme":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1ai_MS.png",
-        "marks":2
-      },
-
-      {
-        "part":"a(ii)",
-        "image":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1aii.png",
-        "markscheme":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1aii_MS.png",
-        "marks":3
-      },
-
-      {
-        "part":"a(iii)",
-        "image":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1aiii.png",
-        "markscheme":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1aiii_MS.png",
-        "marks":2
-      },
-
-      {
-        "part":"b(i)",
-        "image":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1bi.png",
-        "markscheme":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1bi_MS.png",
-        "marks":3
-      },
-
-      {
-        "part":"b(ii)",
-        "image":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1bii.png",
-        "markscheme":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1bii_MS.png",
-        "marks":2
-      }
+       {
+    "part":"a(i)",
+    "image":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1ai.png",
+    "markscheme":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1ai_MS.png"
+  },
+  {
+    "part":"a(ii)",
+    "image":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1aii.png",
+    "markscheme":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1aii_MS.png"
+  },
+  {
+    "part":"a(iii)",
+    "image":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1aiii.png",
+    "markscheme":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1aiii_MS.png"
+  },
+  {
+    "part":"b(i)",
+    "image":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1bi.png",
+    "markscheme":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1bi_MS.png"
+  },
+  {
+    "part":"b(ii)",
+    "image":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1bii.png",
+    "markscheme":"images/P2/M23_TZ1/Q1/M23_TZ1_P2_Q1bii_MS.png"
+  }
 
     ]
   }
