@@ -116,13 +116,10 @@ localStorage.getItem(
 "studentNotes"
 ).replace(/\n/g,"<br>");
 
-let parts = [
-"ai",
-"aii",
-"aiii",
-"bi",
-"bii"
-];
+const question =
+JSON.parse(
+localStorage.getItem("currentQuestion")
+);
 
 let currentPart =
 parseInt(
@@ -130,11 +127,14 @@ localStorage.getItem("currentPart")
 || "0"
 );
 
+const part =
+question.parts[currentPart];
+
 document.getElementById(
 "questionTitle"
 ).innerHTML =
 "Question " +
-parts[currentPart];
+part.part;
 
 document.getElementById(
 "questionImage"
