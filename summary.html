@@ -101,33 +101,41 @@ localStorage.getItem(
 "studentNotes"
 ).replace(/\n/g,"<br>");
 
-const answers =
+const question =
 JSON.parse(
-localStorage.getItem("answers")
-|| "{}"
+localStorage.getItem("currentQuestion")
 );
 
-let html="";
+const answers =
+JSON.parse(
+localStorage.getItem("answers") || "{}"
+);
 
-for(let key in answers){
+let html = "";
+
+question.parts.forEach(part=>{
 
 html += `
 <div class="answer">
 
-<b>${key}</b>
+<h3>Question ${part.part}</h3>
+
+<img
+src="${part.image}"
+style="width:100%;border-radius:10px;margin:15px 0;">
+
+<b>Your Answer</b>
 
 <br><br>
 
-${answers[key]}
+${answers[part.part] || "<i>No answer</i>"}
 
 </div>
 `;
 
-}
+});
 
-document.getElementById(
-"answers"
-).innerHTML=html;
+document.getElementById("answers").innerHTML = html;
 
 </script>
 
