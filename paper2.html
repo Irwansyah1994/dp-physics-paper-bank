@@ -175,6 +175,11 @@ localStorage.setItem(
 document.getElementById("notes").value
 );
 
+localStorage.setItem(
+"currentQuestion",
+JSON.stringify(question)
+);
+    
 window.location.href =
 "question.html";
 
