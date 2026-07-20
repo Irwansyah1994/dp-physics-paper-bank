@@ -130,12 +130,45 @@ style="width:100%;border-radius:10px;margin:15px 0;">
 
 ${answers[part.part] || "<i>No answer</i>"}
 
+<br><br>
+
+<button onclick="toggleMS('${part.part}')">
+📖 Show Markscheme
+</button>
+
+<div
+id="ms_${part.part}"
+style="display:none;margin-top:20px;">
+
+<img
+src="${part.markscheme}"
+style="width:100%;border-radius:10px;">
+
+</div>
+
 </div>
 `;
 
 });
 
 document.getElementById("answers").innerHTML = html;
+
+function toggleMS(id){
+
+const div =
+document.getElementById("ms_"+id);
+
+if(div.style.display==="none"){
+
+div.style.display="block";
+
+}else{
+
+div.style.display="none";
+
+}
+
+}
 
 </script>
 
